@@ -51,6 +51,15 @@ public class LineComparisionComputation {
 		
 		System.out.println("Length of second line is : "  + length2);
 		
-		System.out.println("length1 is equal to length2 = " + (length1 == length2));
-	}
+		if (length1 == length2) {
+			System.out.println("First line is equal to Second line");
+		}
+		else if (length1 >= length2) {
+			System.out.println("First line is greater than Second line");
+		}
+		else {
+			System.out.println("First line is less than Second line");
+		}
+		}
 }
+
